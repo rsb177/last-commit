@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+   
+    "name": "Github - Last Commit",
+    "version": "0.1.0",
+    "description": "When there's a link to a github repo on a webpage, this will add a badge showing when the last commit was.",
+   
+    "content_scripts": [{
+      "js": ["content.js"],      
+    }]
+   
+  }
